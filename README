@@ -1,0 +1,27 @@
+FYI Technical task for Leinier Cruz Salfran.
+
+A QML application that shows a clock and the time can be adjusted by the user by clicking in the hour or minute handle and then in the desired position.
+
+
+Requisites
+==========
+
+Qt 6.4
+CMake
+Make
+
+
+Building
+========
+
+cd leinercs-fyi-technical_test-clock
+mkdir build
+cd build
+cmake -Wno-dev -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .
+
+
+Executing
+=========
+
+./app-leinercs-fyi-technical_test-clock
